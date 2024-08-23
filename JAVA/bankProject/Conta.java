@@ -8,7 +8,7 @@ public class Conta {
 
 
     public void deposita(double valor) {
-        this.saldo += 100;
+        this.saldo += valor;
     }
 
     public boolean saca(double valor) {
@@ -20,7 +20,7 @@ public class Conta {
         return false;
     }
 
-    public boolean tranfere(double valor, Conta destino) {
+    public boolean transfere(double valor, Conta destino) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
             destino.deposita(valor);
