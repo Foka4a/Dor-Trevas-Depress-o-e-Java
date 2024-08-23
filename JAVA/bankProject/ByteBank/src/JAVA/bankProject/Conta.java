@@ -1,14 +1,12 @@
 package JAVA.bankProject;
 
-import JAVA.Cliente;
-
 public class Conta {
     double saldo;
     int agencia;
     int numero;
     Cliente titular;
 
-
+    //MÉTEDOS
     public void deposita(double valor) {
         this.saldo += valor;
     }
