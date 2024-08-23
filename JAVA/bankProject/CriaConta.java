@@ -1,23 +1,24 @@
 package JAVA.bankProject;
 
-import JAVA.Cliente;
-
 public class CriaConta {
     
     public static void main(String[] args) {
-
+              
+              //REFERÊNCIA
         Conta primeiraConta = new Conta();
         primeiraConta.saldo = 200;
-        //System.out.println(primeiraConta.saldo);
+
+            //System.out.println(primeiraConta.saldo);
 
         primeiraConta.saldo += 100;
-       //System.out.println(primeiraConta.saldo);
+
+            //System.out.println(primeiraConta.saldo);
 
         Conta segundaConta = new Conta();
         segundaConta.saldo = 1000;
 
-        //System.out.println("A primera conta tem R$ " + primeiraConta.saldo);
-        //System.out.println("A segunda conta tem R$ " + segundConta.saldo);
+            //System.out.println("A primera conta tem R$ " + primeiraConta.saldo);
+            //System.out.println("A segunda conta tem R$ " + segundConta.saldo);
   
         primeiraConta.deposita(2000);
         System.out.println(primeiraConta.saldo);
@@ -38,8 +39,6 @@ public class CriaConta {
         contaGabriel.titular = new Cliente();
         contaGabriel.titular.nome = "Gabriel";
 
-
-            
     }
 
 }
