@@ -10,6 +10,7 @@ public class Designer extends Funcionario {
         return this.senha == senha;
     }
 
+    @Override
     public double getBonificacao() {
         System.out.println("Bonficação Designer");
         return + 500;
