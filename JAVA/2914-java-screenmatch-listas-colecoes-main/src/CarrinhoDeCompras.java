@@ -1,4 +1,5 @@
 
+
 import java.util.ArrayList;
 
 public class CarrinhoDeCompras {
@@ -20,8 +21,10 @@ public class CarrinhoDeCompras {
         listaDeCompras.add(pao);
         listaDeCompras.add(ovos);
         listaDeCompras.add(frango);
-        System.out.println(listaDeCompras.get(2));
-        System.out.println(listaDeCompras.size());
+
+        for (Produtos produtos : listaDeCompras) {
+            System.out.println(produtos);
+        }
             
         
 

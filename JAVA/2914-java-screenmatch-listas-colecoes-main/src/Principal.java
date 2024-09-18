@@ -1,8 +1,11 @@
+
+
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
+import br.com.alura.screenmatch.modelos.Titulo;
 import java.util.ArrayList;
 
 public class Principal {
@@ -57,7 +60,7 @@ public class Principal {
 
 
 
-    ArrayList<Filme> listeDeFilmes = new ArrayList<>();
+    ArrayList<Titulo> listeDeFilmes = new ArrayList<>();
         listeDeFilmes.add(outroFilme);
         listeDeFilmes.add(filmeDoPaulo);
         listeDeFilmes.add(meuFilme);
